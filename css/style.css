@@ -1,5 +1,9 @@
-@import './global/header.css';
 @import './global/global.css';
+@import './global/ultilidades/tipografia.css';
+@import './global/ultilidades/cores.css';
+
+
+@import './global/header.css';
 
 /* Utilitários */
 @import './global/ultilidades/compornentes.css';
