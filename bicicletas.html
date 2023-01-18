@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bicicletas | Bikecraft</title>
     <meta name="description" content="Bicicletas">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <link rel="perload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 <body id="bicicletas">
     <header class="header-bg">
@@ -37,7 +39,7 @@
             </div>
         </div>
 
-        <div class="bicicletas-bg">
+        <div class="bicicletas-bg fadeInLeft" data-anime="200">
             <div class="bicicletas container">
                 <div class="bicicletas-imagem">
                     <img src="./img/bicicletas/nimbus.jpg" alt="bicicletas preta">
@@ -69,7 +71,7 @@
             </div>
         </div>
 
-        <div class="bicicletas-bg">
+        <div class="bicicletas-bg fadeInRight" data-anime="400">
             <div class="bicicletas container">
                 <div class="bicicletas-imagem">
                     <img src="./img/bicicletas/magic.jpg" alt="bicicletas preta">
@@ -101,7 +103,7 @@
             </div>
         </div>
 
-        <div class="bicicletas-bg">
+        <div class="bicicletas-bg fadeInLeft" data-anime="600">
             <div class="bicicletas container">
                 <div class="bicicletas-imagem">
                     <img src="./img/bicicletas/nebula.jpg" alt="bicicletas preta">
@@ -173,5 +175,7 @@
         </div>
     </footer>
 
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
